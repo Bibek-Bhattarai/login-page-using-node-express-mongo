@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title Register
+  body
+    h1 Register for account
+    form(method='POST',action='/users/register')
+      |   Name:
+      br
+      input(name='name', type='text')
+      br
+      |   Email:
+      br
+      input(name='email', type='text')
+      br
+      |   User Name:
+      br
+      input(name='username', type='text')
+      br
+      |   Password:
+      br
+      input(name='password', type='password')
+      br
+      input(value='Submit', type='submit')

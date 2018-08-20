@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title Login
+  body
+    h1 Login for account
+    form(method='POST',action='/users/login')
+      | User Name:
+      br
+      input(name='username',type='text')
+      br
+      |   Password:
+      br
+      input(name='password', type='password')
+      br
+      br
+      input(value='Submit', type='submit')
